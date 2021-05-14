@@ -11,7 +11,7 @@ MotorR = Motor(Port.A)
 MotorL = Motor(Port.B)
 ts = TouchSensor(Port.S1)
 
-while True:
+# while True:
     if ts.pressed():
         MotorR.run(2000)
         MotorL.run(2000)
